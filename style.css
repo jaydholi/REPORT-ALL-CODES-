@@ -1,0 +1,51 @@
+/* Custom Styles */
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2020/09/27/13/15/data-5606639_1280.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#about img {
+    max-width: 100%;
+}
+
+/* Portfolio Section */
+#portfolio .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Footer */
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
